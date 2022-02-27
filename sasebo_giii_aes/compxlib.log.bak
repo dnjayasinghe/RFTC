@@ -1,0 +1,55 @@
+    ____  ____
+   /   /\/   /
+  /___/  \  /    VENDOR      : Xilinx Inc.
+  \   \   \/     VERSION     : 14.7 (P.20131013)
+   \   \         APPLICATION : E:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe
+   /   /         CONTENTS    : Compilation Log
+  /___/   /\     FILENAME    : compxlib.log
+  \   \  /  \    
+   \___\/\___\
+
+Release 14.7 - E:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe 14.7 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Processing command line ...
+Library Source Paths => 'E:/Xilinx/14.7/ISE_DS/ISE'
+Current Working Directory => 'C:\Users\Darshu-win\Documents\sasebo_giii_aes\sasebo_giii_aes'
+Compilation Mode = FAST
+Execute Mode = ON
+Scheduling library installation & compilation for architectures: virtex7
+
+Scheduling library installation & compilation for libraries: simprim unisim xilinxcorelib
+
+Signature:-
+------------------------------------------------------------------------------
+E:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe -s mti_se -l verilog -arch kintex7 -lib unisim -lib simprim -lib xilinxcorelib -intstyle ise 
+------------------------------------------------------------------------------
+ERROR:Compxlib - COMPXLIB[sim]: Unable to automatically find executables for simulator 'mti_se' from the following paths:
+    E:\Xilinx\14.7\ISE_DS\ISE\\lib\nt64
+   E:\Xilinx\14.7\ISE_DS\ISE\\bin\nt64
+   E:\Xilinx\14.7\ISE_DS\ISE\bin\nt64
+   E:\Xilinx\14.7\ISE_DS\ISE\lib\nt64
+   E:\Xilinx\14.7\ISE_DS\ISE\..\..\..\DocNav
+   E:\Xilinx\14.7\ISE_DS\PlanAhead\bin
+   E:\Xilinx\14.7\ISE_DS\EDK\bin\nt64
+   E:\Xilinx\14.7\ISE_DS\EDK\lib\nt64
+   E:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin
+   E:\Xilinx\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin
+   E:\Xilinx\14.7\ISE_DS\EDK\gnuwin\bin
+   E:\Xilinx\14.7\ISE_DS\EDK\gnu\arm\nt\bin
+   E:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin
+   E:\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin
+   E:\Xilinx\14.7\ISE_DS\common\bin\nt64
+   E:\Xilinx\14.7\ISE_DS\common\lib\nt64
+   C:\Windows\system32
+   C:\Windows
+   C:\Windows\System32\Wbem
+   C:\Windows\System32\WindowsPowerShell\v1.0\
+   C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static
+   C:\Program Files (x86)\IVI Foundation\IVI\bin
+   C:\Program Files\IVI Foundation\IVI\bin
+   C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\
+   C:\Program Files\IVI Foundation\VISA\Win64\Bin\
+   C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin
+   C:\modeltech_pe_10.3c\win32pe.
+Simulator 'mti_se' is ignored.

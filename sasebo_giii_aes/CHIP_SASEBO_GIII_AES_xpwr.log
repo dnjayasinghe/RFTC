@@ -1,0 +1,22 @@
+Loading device for application Rf_Device from file '7k325t.nph' in environment
+C:\Xilinx\14.7\ISE_DS\ISE\.
+   "CHIP_SASEBO_GIII_AES" is an NCD, version 3.2, device xc7k325t, package
+fbg676, speed -1
+
+INFO:Power:1693 - 
+   --------------------------------------------------------------
+                         The power estimate will be calculated using PRODUCTION
+   data.
+   --------------------------------------------------------------
+
+Design load 20% completeDesign load 25% completeDesign load 30% completeDesign load 60% completeDesign load 95% completeDesign load 100% completeWARNING:PowerEstimator:270 - Power estimate is considered inaccurate. To see details, generate an advanced report with the "-v" switch.
+Running Vector-less Activity Propagation
+............
+Finished Running Vector-less Activity Propagation
+Finished Running Vector-less Activity Propagation 2 secs 
+Power report saved as CHIP_SASEBO_GIII_AES.pwr.
+
+Number of error messages: 0
+Number of warning messages: 1
+Number of info messages: 1
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Microblaze\CLK-scrmb\GII\randclkswitch\giii\working - block mem\clk3\8-steps\v6.1 - recong\sasebo_giii_aes\sasebo_giii_aes\CHIP_SASEBO_GIII_AES.ncd
+OUTFILE=E:\Microblaze\CLK-scrmb\GII\randclkswitch\giii\working - block mem\clk3\8-steps\v6.1 - recong\sasebo_giii_aes\sasebo_giii_aes\CHIP_SASEBO_GIII_AES.bit
+FAMILY=Kintex7
+PART=xc7k325t-1fbg676
+WORKINGDIR=E:\Microblaze\CLK-scrmb\GII\randclkswitch\giii\working - block mem\clk3\8-steps\v6.1 - recong\sasebo_giii_aes\sasebo_giii_aes
+LICENSE=ISE
+USER_INFO=176080079_176910363_210559698_406

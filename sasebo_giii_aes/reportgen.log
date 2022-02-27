@@ -1,0 +1,67 @@
+Release 14.7 reportgen P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+DARSHUWINPC::  Wed Feb 20 20:01:20 2019
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\reportgen.exe -intstyle ise -delay
+-o CHIP_SASEBO_GIII_AES CHIP_SASEBO_GIII_AES.ncd 
+
+Loading device for application Rf_Device from file '7k325t.nph' in environment
+C:\Xilinx\14.7\ISE_DS\ISE\.
+   "CHIP_SASEBO_GIII_AES" is an NCD, version 3.2, device xc7k325t, package
+fbg676, speed -1
+ReportGen:LoadDesign: 'CHIP_SASEBO_GIII_AES.ncd'
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 0.970 Volts. (default - Range: 0.970 to 1.030 Volts)
+Device speed data version:  "PRODUCTION 1.10 2013-10-13".
+
+Generating Delay Report: CHIP_SASEBO_GIII_AES.dly
+
+
+   The Delay Summary Report
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        1.008
+   The MAXIMUM PIN DELAY IS:                               7.562
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   4.838
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 8.00  d >= 8.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+        9364        3172         614         253         188           0
+
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|                dclk | BUFGCTRL_X0Y0| No   |  655 |  0.683     |  2.049      |
++---------------------+--------------+------+------+------------+-------------+
+|                clko | BUFGCTRL_X0Y1| No   |  428 |  0.467     |  1.855      |
++---------------------+--------------+------+------+------------+-------------+
+|     lbus_clkn_IBUFG |         Local|      |    3 |  0.000     |  1.230      |
++---------------------+--------------+------+------+------------+-------------+
+|            CLKFBOUT |         Local|      |    1 |  0.000     |  0.014      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 0
+
+reportgen done!
